@@ -170,7 +170,7 @@ class BookView(GenericAPIView):
         if is_valid_data:
             data = data_validation.validated_data
             response = BookInfo.BookDetails(
-                self,
+                self,us
                 data
             )
             status_code = 200
